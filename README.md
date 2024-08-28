@@ -62,7 +62,7 @@ fullstack_medical_project/
   ```
 - The frontend application will be available at
   ```bash
-  http://localhost:3000.
+  http://localhost:3001
   ```
 
 ### Key Features
@@ -109,7 +109,7 @@ fullstack_medical_project/
 - The backend API will be available at
 
   ```bash
-  http://localhost:3000.
+  http://localhost:3000/api/v1/users
   ```
 
 ### Key Features
@@ -158,7 +158,7 @@ fullstack_medical_project/
 - For the frontend, environment variables can be defined in a .env file in the frontend directory:
 
   ```bash
-  REACT_APP_API_URL=http://localhost:3000/api/v1
+  REACT_APP_API_URL=http://localhost:3000/api/v1/users
   ```
 
   ```bash
