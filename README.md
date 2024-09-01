@@ -4,7 +4,7 @@ This monorepo repository contains both the frontend and backend codebases for a 
 
 ## Table of Contents
 
-- [Fullstack Medical Project Monorepo](#fullstack-medical-project-monorepo)
+- [FullStack Medical Project Monorepo](#fullstack-medical-project-monorepo)
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [Frontend (React)](#frontend-react)
