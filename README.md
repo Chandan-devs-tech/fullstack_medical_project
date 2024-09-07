@@ -1,10 +1,10 @@
-# Fullstack Medical Project Monorepo
+# FullStack Medical Project Monorepo
 
-This repository is a monorepo containing both the frontend and backend codebases for a full-stack medical project. The frontend is built using React with React Bootstrap for UI components, and the backend is a RESTful API built with Ruby on Rails. The application allows users to register and submit their medical information, which is then stored in a PostgreSQL database.
+This mono repo repository contains the frontend and backend codebases for a full-stack medical project. The frontend is built using React with React Bootstrap for UI components, and the backend is a RESTful API built with Ruby on Rails. The application allows users to register and submit their medical information stored in a PostgreSQL database.
 
 ## Table of Contents
 
-- [Fullstack Medical Project Monorepo](#fullstack-medical-project-monorepo)
+- [FullStack Medical Project Monorepo](#fullstack-medical-project-monorepo)
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [Frontend (React)](#frontend-react)
