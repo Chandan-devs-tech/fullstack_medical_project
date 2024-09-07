@@ -16,7 +16,7 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :users, only: [:create]  # Or you can specify other actions like [:index, :show, :create, :update, :destroy]
+      resources :users, only: [:create, :index, :show, :update, :destroy]  # Or you can specify other actions like [:index, :show, :create, :update, :destroy]
     end
   end
 end
