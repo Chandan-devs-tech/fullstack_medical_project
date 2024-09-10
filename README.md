@@ -40,7 +40,7 @@ fullstack_medical_project/
 └── README.md # Project README file
 ```
 
-## Frontend (React)
+## Frontend (Reactjs)
 
 ### Description
 
