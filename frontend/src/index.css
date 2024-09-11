@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-.login-page {
+.log-sign-page {
   background-image: url("https://img.freepik.com/free-vector/medical-healthcare-background-with-cardiograph-line_1017-25757.jpg?w=1060&t=st=1726044991~exp=1726045591~hmac=349d31452ebefbccf060896b7e1dee5788dde471c4253d92e02ba90f1222a3c5");
   background-size: cover;
   background-position: center;
@@ -28,19 +28,20 @@
   align-items: center;
 }
 
-.login-page form {
+.log-sign-page form {
   background-color: rgb(38 214 196 / 21%);
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-end;
   flex-direction: column;
   gap: 20px;
   height: 200px;
 }
 
 .btn {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
