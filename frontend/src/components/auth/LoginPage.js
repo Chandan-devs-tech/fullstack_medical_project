@@ -20,13 +20,13 @@ function LoginPage() {
   };
 
   return (
-    <Container fluid className="login-page">
+    <Container fluid className="log-sign-page">
       <Row>
         <Col md={6} lg={4} xl={3}>
-          <Form>
+          <Form className="form">
             <Form.Group className="mb-3" controlId="username">
               <Form.Label className="label">
-                <FaUser /> Username
+                <FaUser /> Email
               </Form.Label>
               <Form.Control
                 className="input"
