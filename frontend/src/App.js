@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './components/Header.jsx';
-import FormRegistry from './components/Form.jsx';
+import React from "react";
+import LoginPage from "./components/auth/LoginPage.js";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <FormRegistry />
+      <LoginPage />
+      {/* <Header /> */}
+      {/* <FormRegistry /> */}
     </div>
   );
 }
