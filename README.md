@@ -184,5 +184,6 @@ fullstack_medical_project/
   For the frontend: npm install && npm run build
 
 - Configure environment variables in the Render dashboard for both services.
-- Deploy both services as separate web services on Render.
+- Deploy both services as separate web services on  Render.
+
   Link the frontend service to the backend API URL using environment variables.
