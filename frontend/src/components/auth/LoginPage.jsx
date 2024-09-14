@@ -1,11 +1,20 @@
-import React, { useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { FaLock, FaUser } from "react-icons/fa";
+import React, { useState } from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { FaLock, FaUser } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
+  const handleSignup = () => {
+    navigate('/signup');
+  };
+
+  const handleForgotPassword = () => {
+    navigate('/forgotpassword');
+  };
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
   };
@@ -16,7 +25,7 @@ function LoginPage() {
 
   const handleLogin = () => {
     // Add your login logic here
-    console.log("Login button clicked");
+    console.log('Login button clicked');
   };
 
   return (
@@ -57,11 +66,15 @@ function LoginPage() {
 
           <div className="btn">
             <div className="mt-3">
-              <Button variant="succss">FORGOT PASSWORD</Button>
+              <Button variant="succss" onClick={handleForgotPassword}>
+                FORGOT PASSWORD
+              </Button>
             </div>
 
             <div className="mt-3">
-              <Button variant="info">SIGN UP</Button>
+              <Button variant="info" onClick={handleSignup}>
+                SIGN UP
+              </Button>
             </div>
           </div>
         </Col>
